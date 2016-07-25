@@ -1,0 +1,186 @@
+.jumbotron {
+	background-image: url(jum.png);
+	height: 500px;
+}
+.jumbotron .container {
+	position: absolute;
+	top: 60px;
+	color: rgb(0, 0, 0);
+}
+.jumbotron a {
+	color: #fff;
+}
+.jumbotron h1 {
+	padding: 8px;
+	font-size: 48px;
+}
+ul li {
+	display: inline;
+}
+.navbar a {
+	position: relative;
+	font-weight: bold;
+	color: #dfdfdf;
+	text-transform: uppercase;
+	padding: 8px;
+	top: 16px;
+}
+.rdm, .navbar a.rdm {
+	color: hsl(0, 40%, 60%);
+}
+sup {
+	color: hsla(0, 40%, 40%, 0.5);
+	font-size: 50%;
+	font-style: italic;
+	font-size: 10px;
+}
+.ourgames h2 {
+	font-size: 24px;
+}
+#onlineGuys {
+	width: 30%;
+	height: 20%;
+	overflow-y: scroll;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+}
+#chat {
+	width: 20%;
+	height: 80%;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+#chatMessages {
+	overflow-y: scroll;
+	height: 80%;
+}
+#chatMessage {
+	width: 70%;
+	height: 10%;
+}
+#playerInfo {
+	width: 40%;
+	height: 100%;
+}
+.boardTile, tile {
+	width: 48px;
+	height: 48px;
+	background-color: hsl(0, 0%, 95%);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	position: absolute;
+	font-family: Ubuntu;
+	font-size: 8px;
+	text-align: center;
+}
+player {
+	width: 24px;
+	height: 24px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	border-radius: 100%;
+	border: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 2;
+	transition: 0.2s all;
+	text-align: center;
+	font-size: 9px;
+	font-family: Ubuntu;
+}
+ticker {
+	width: 48px;
+	height: 48px;
+	border-radius: 8px;
+	border: 2px dotted red;
+	position: absolute;
+}
+turn {
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+}
+end_turn {
+	color: rgba(0, 128, 255, 0.8);
+	cursor: pointer;
+	position: absolute;
+	bottom: 24px;
+	left: 8px;
+}
+end_turn:hover {
+	color: rgba(0, 255, 128, 0.8);
+	border-bottom: 1px dotted rgba(0, 128, 255, 0.5);
+}
+.red {
+	background-color: hsl(0, 60%, 60%);
+}
+.orange {
+	background-color: hsl(30, 60%, 60%);
+}
+.yellow {
+	background-color: hsl(60, 60%, 60%);
+}
+.green {
+	background-color: hsl(90, 60%, 60%);
+}
+.lime {
+	background-color: hsl(120, 60%, 60%);
+}
+.jade {
+	background-color: hsl(150, 60%, 60%);
+}
+.aqua {
+	background-color: hsl(180, 60%, 60%);
+}
+.sky {
+	background-color: hsl(210, 60%, 60%);
+}
+.blue {
+	background-color: hsl(240, 60%, 60%);
+}
+.indigo {
+	background-color: hsl(270, 60%, 60%);
+}
+.violet {
+	background-color: hsl(300, 60%, 60%);
+}
+.pink {
+	background-color: hsl(330, 60%, 60%);
+}
+
+.red_2 {
+	background-color: hsl(0, 80%, 50%);
+}
+.orange_2 {
+	background-color: hsl(30, 80%, 50%);
+}
+.yellow_2 {
+	background-color: hsl(60, 80%, 50%);
+}
+.green_2 {
+	background-color: hsl(90, 80%, 50%);
+}
+.lime_2 {
+	background-color: hsl(120, 80%, 50%);
+}
+.jade_2 {
+	background-color: hsl(150, 80%, 50%);
+}
+.aqua_2 {
+	background-color: hsl(180, 80%, 50%);
+}
+.sky_2 {
+	background-color: hsl(210, 80%, 50%);
+}
+.blue_2 {
+	background-color: hsl(240, 80%, 50%);
+}
+.indigo_2 {
+	background-color: hsl(270, 80%, 50%);
+}
+.violet_2 {
+	background-color: hsl(300, 80%, 50%);
+}
+.pink_2 {
+	background-color: hsl(330, 80%, 50%);
+}

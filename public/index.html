@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Game</title>
+
+    <link type="text/css" rel="stylesheet" href="./bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+    <div id="putschGame">
+
+    </div>
+    <div>
+      <div class="container">
+        <div id="playerInfo"></div>
+
+        <div id="onlineGuys"></div>
+        <div id="chat">
+          <div id="chatMessages"></div>
+          <input type="text" id="chatMessage">
+          <input type="button" onclick="sendMessage()" value="Enviar">
+        </div>
+      </div>
+    </div>
+    <script src="./common.js"></script>
+  	<script src="./jquery-2.1.4.min.js"></script>
+  	<script src="./jquery-ui.min.js"></script>
+    <script src="./socket.io-1.2.0.js"></script>
+  	<script src="script.js"></script>
+  </body>
+</html>
